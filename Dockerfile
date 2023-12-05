@@ -5,5 +5,5 @@ COPY package*.json /app/
 RUN npm install --silent
 COPY . .
 
-EXPOSE 8000
+EXPOSE 3000
 CMD [ "npm", "run", "start" ]
